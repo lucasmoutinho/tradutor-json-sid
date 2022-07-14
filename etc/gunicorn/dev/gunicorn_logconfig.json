@@ -1,0 +1,43 @@
+{
+    "version": 1,
+    "disable_existing_loggers": false,
+    "formatters": {
+        "access_fmt": {
+            "format": "%(message)s"
+        },
+        "error_fmt": {
+            "format": "[%(asctime)s] [%(levelname)-8s] [%(process)-2d] [%(name)-20s] [%(module)-10s] %(message)s"
+        }
+    },
+    "handlers": {
+        "stdout": {
+            "class": "logging.StreamHandler",
+            "formatter": "access_fmt",
+            "stream": "ext://sys.stdout"
+        },
+        "stderr": {
+            "class": "logging.StreamHandler",
+            "formatter": "error_fmt",
+            "stream": "ext://sys.stderr"
+        }
+    },
+    "loggers": {
+        "gunicorn.access": {
+            "level": "INFO",
+            "handlers": [
+                "stdout"
+            ],
+            "propagate": false
+        },
+        "gunicorn.error": {
+            "level": "DEBUG",
+            "handlers": [
+                "stderr"
+            ],
+            "propagate": false
+        }
+    },
+    "root": {
+        "propagate": false
+    }
+}

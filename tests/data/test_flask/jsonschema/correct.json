@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "in_param_001": {
+          "type": "string",
+          "maxLength": 10
+        }
+    },
+    "required": ["in_param_001"]
+}

@@ -1,0 +1,39 @@
+{
+        "root_param_001": "smth",
+        "level1": [
+            {
+                "level1_key": 1,
+                "level1_param_001": "smth",
+                "level2": [
+                    {
+                        "level2_key": 1,
+                        "level2_param_001": "smth"
+                    },
+                    {
+                        "level2_key": 2,
+                        "level2_param_001": "smth"
+                    }
+                ]
+            },
+            {
+                "level1_key": 2,
+                "level1_param_001": "smth",
+                "level2": [
+                    {
+                        "level2_key": 3,
+                        "level2_param_001": "smth",
+                        "level2_param_002": "smth"
+                    },
+                    {
+                        "level2_key": 4,
+                        "level2_param_001": "smth",
+                        "level2_param_002": "smth"
+                    }
+                ]
+            },
+            {
+                "level1_key": 3,
+                "level1_param_001": "smth"
+            }
+        ]
+}

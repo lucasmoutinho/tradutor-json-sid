@@ -1,0 +1,13 @@
+*.pyc
+*.pyo
+**/__pycache__/
+**/.pytest_cache/
+*.coverage
+*.bak
+
+*.env
+
+logs/*
+files/*
+
+src/jde/dev/*

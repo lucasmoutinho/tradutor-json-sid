@@ -1,0 +1,75 @@
+{
+    "counterpartyIdentifier": "REG_TEST_CP_1",
+    "intercompanyCounterparty": "Nn",
+    "watchStatus": "",
+    "debtRecovery": null,
+    "creditFacilities": [
+        {
+            "creditFacilityIdentifier": "REG_TEST_1",
+            "creditFacilityLevel": "CAA",
+            "parentCreditFacility": null,
+            "counterpartyIdentifier": "1234",
+            "plnplIndicator": "",
+            "creditFacilitySSID": "F05",
+            "tradeDate": "",
+            "defaultTrigger": "",
+            "pastThresholdDate": "2020-08-01",
+            "forbearanceMeasures": [
+                {
+                    "forbearanceMeasure": "",
+                    "forbearanceMeasureApprovalDt": "",
+                    "forbearanceMeasureEndDate": "",
+                    "forbearanceMeasureCode": ""
+                }
+            ]
+        },
+        {
+            "creditFacilityIdentifier": "REG_TEST_2",
+            "creditFacilityLevel": "CFa",
+            "parentCreditFacility": "REG_TEST_1",
+            "counterpartyIdentifier": "1234",
+            "riskStageIdentifier": "47C71AC1B156CF878F1575892776067",
+            "riskStageVersion": "16",
+            "plnplIndicator": "NPLl",
+            "creditFacilitySSID": "F05",
+            "residualLifetimePD": "",
+            "originalLifetimePD": "",
+            "tradeDate": "1980-01-01",
+            "defaultProbationStartDate": "",
+            "defaultProbationEndDate": "",
+            "dflt": "N",
+            "defaultDate": null,
+            "defaultEndDate": null,
+            "impaired": "Y",
+            "impairmentDate": "2020-01-01",
+            "impairmentEndDate": null,
+            "forborne": "N",
+            "forborneDate": null,
+            "ceaseToBeForborneDate": null,
+            "performingIndicator": "PERFa",
+            "nonPerformingStartDate": null,
+            "nonPerformingEndDate": null,
+            "probationStartDate": "2020-01-01",
+            "probationEndDate": "2020-01-01",
+            "nonPerfExposureCurePerStartDat": "2020-01-01",
+            "nonPerfExposureCurePerEndDate": "2021-01-01",
+            "pastDueDate": "",
+            "clientSegmentLEL": "",
+            "pastThresholdDate": null,
+            "outOfDefaultProbation": "Y",
+            "defaultTrigger": "",
+            "debtRecovery": "",
+            "financingProducts": [
+                {
+                    "arrangementIdentifier": "REG_TEST_2a",
+                    "creditFacilityIdentifier": "REG_TEST_2",
+                    "defaultTrigger": "",
+                    "arrearsAmount": 0,
+                    "numberOfInstallmentsPastDue": 0
+                }
+            ]
+        }
+    ],
+    "mainSourceSystem": "CRAS",
+    "reportingDate": "2021-01-01"
+}

@@ -1,0 +1,36 @@
+{
+	"root": {
+		"datagrid1": [
+			{
+				"param1": 100,
+				"param2": "ABC"
+			},
+			{
+				"param1": 101,
+				"param2": "DEF"
+			}
+		],
+		"datagrid2": [
+			{
+				"param3": 200,
+				"param4": "GHI"
+			},
+			{
+				"param3": 201,
+				"param4": "JKL"
+			}
+		],
+		"data": {
+			"param1": 100,
+			"param2": "ABC"
+		},
+		"nonscalar_list": {
+			"param1": 100,
+			"param2": ["A", "B", "C"]
+		},
+		"nonscalar_dict": {
+			"param1": 100,
+			"param2": {"param3": 110, "param4": "DEF"}
+		}
+	}
+}

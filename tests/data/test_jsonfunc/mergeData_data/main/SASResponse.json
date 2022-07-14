@@ -1,0 +1,140 @@
+{
+    "links": [],
+    "version": 2,
+    "moduleId": "moduleId",
+    "stepId": "execute",
+    "executionState": "completed",
+    "outputs": [
+        {
+            "name": "datagrid_level1",
+            "value": [
+                {
+                    "metadata": [
+                        {
+                            "LEVEL1_KEY": "decimal"
+                        },
+                        {
+                            "LEVEL1_PARAM_002": "string"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        [
+                            1,
+                            "smth1"
+                        ],
+                        [
+                            2,
+                            "smth2"
+                        ],
+                        [
+                            3,
+                            ""
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "datagrid_in_level1",
+            "value": [
+                {
+                    "metadata": [
+                        {
+                            "LEVEL1_KEY": "decimal"
+                        },
+                        {
+                            "LEVEL1_IN_PARAM_001": "string"
+                        },
+                        {
+                            "LEVEL1_IN_PARAM_002": "decimal"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        [
+                            1,
+                            "smth1",
+                            1
+                        ],
+                        [
+                            3,
+                            "smth3",
+                            3
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "datagrid_level2",
+            "value": [
+                {
+                    "metadata": [
+                        {
+                            "LEVEL2_KEY": "decimal"
+                        },
+                        {
+                            "LEVEL2_PARAM_002": "string"
+                        },
+                        {
+                            "LEVEL2_PARAM_003": "decimal"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        [
+                            1,
+                            "smth1",
+                            201
+                        ],
+                        [
+                            2,
+                            "smth2",
+                            202
+                        ],
+                        [
+                            3,
+                            "smth3",
+                            203
+                        ],
+                        [
+                            4,
+                            "smth4",
+                            204
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "dummy_datagrid",
+            "value": [
+                {
+                    "metadata": [
+                        {
+                            "PARAM": "decimal"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        [
+                            1
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "root2_param_001"
+        },
+        {
+            "name": "root2_param_002",
+            "value": 0
+        }
+    ]
+}

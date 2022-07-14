@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "disable_existing_loggers": false,
+    "formatters": {
+        "for_console": {
+            "format": "[%(asctime)s] [%(name)s] [%(levelname)s] %(message)s"
+        }
+    },
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+            "formatter": "for_console",
+            "stream": "ext://sys.stdout"
+        }
+    },
+    "loggers": {
+        "gunicorn.error": {
+            "level": "WARN",
+            "handlers": [],
+            "propagate": false
+        }
+    },
+    "root": {
+        "level": "WARN",
+        "propagate": false
+    }
+}

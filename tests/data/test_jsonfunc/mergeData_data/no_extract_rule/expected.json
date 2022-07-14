@@ -1,0 +1,15 @@
+{
+    "SASResponse": {
+        "links": [],
+        "version": 2,
+        "moduleId": "moduleId",
+        "stepId": "execute",
+        "executionState": "completed",
+        "outputs": [
+            {
+                "name": "some_param",
+                "value": 0
+            }
+        ]
+    }
+}

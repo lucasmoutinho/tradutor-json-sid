@@ -1,0 +1,52 @@
+{
+    "version": 1,
+    "disable_existing_loggers": false,
+    "formatters": {
+        "verbose": {
+            "format": "[%(asctime)s] [%(name)-20s] [%(levelname)-8s] [%(module)-10s] %(message)s"
+        },
+        "simple": {
+            "format": "[%(asctime)s] [%(name)s] %(message)s"
+        }
+    },
+    "handlers": {
+        "stdout": {
+            "class": "logging.StreamHandler",
+            "formatter": "verbose",
+            "stream": "ext://sys.stdout"
+        },
+        "stderr": {
+            "class": "logging.StreamHandler",
+            "formatter": "simple",
+            "stream": "ext://sys.stderr"
+        },
+        "file": {
+            "class": "logging.FileHandler",
+            "formatter": "verbose",
+            "filename": "/logs/debug_flaskApp.log"
+        }
+    },
+    "loggers": {
+        "app": {
+            "level": "TRACE",
+            "handlers": [
+                "stdout",
+                "file"
+            ],
+            "propagate": false
+        },
+        "werkzeug": {
+            "handlers": [
+                "stderr",
+                "file"
+            ],
+            "propagate": false
+        }
+    },
+    "root": {
+        "handlers": [
+            "stderr"
+        ],
+        "propagate": false
+    }
+}

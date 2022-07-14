@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+_pyjq.c
+_pyjq.pyx
+pyjq.py
+pyproject.toml
+setup.cfg
+setup.py
+test_pyjq.py
+tox.ini
+dependencies/jq-1.5.tar.gz
+dependencies/onig-6.9.0.tar.gz
+pyjq.egg-info/PKG-INFO
+pyjq.egg-info/SOURCES.txt
+pyjq.egg-info/dependency_links.txt
+pyjq.egg-info/top_level.txt
